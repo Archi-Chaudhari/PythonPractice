@@ -41,6 +41,7 @@ souver=25
 
 
 
+
 print(gas_cost+food_cost+accomodation_cost)
 print(f"you can buy {souver}")
 
