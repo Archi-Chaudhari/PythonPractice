@@ -1,3 +1,5 @@
+from setuptools.command.develop import develop
+
 print('hello')
 print('hii')
 print('first line /t second line')
@@ -50,6 +52,38 @@ print(10**2)
 
 volume=4
 print("vol of cube is",volume **3)
+
+basic_tier_price=9.99
+pro_tier_price=19.99
+basic_tier_users=1000
+pro_tier_users=500
+
+server_cost=1000
+support_cost=5000
+misc_cost=2000
+
+name=input("prt name")
+pet_age=int(input('enter age'))
+pet_species=input('enter pet species')
+
+print(f"pet name is {name}, age is {pet_age}, species is  {pet_species}")
+
+num1=int(input('enter num1'))
+num2=int(input('enter num2'))
+op=input('enter operation')
+
+if op == '+':
+    result=num1+num2
+elif op== '-':
+    result=num1-num2
+elif op=='/':
+    result=num1/num2
+elif op=='*':
+    result=num1*num2
+else:
+    result='invalid'
+
+print(result)
 
 
 
